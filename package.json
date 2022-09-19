@@ -1,0 +1,19 @@
+{
+  "name": "polarfeed1.0",
+  "version": "1.0.0",
+  "description": "Social Network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonGri/polarfeed1.0.git"
+  },
+  "author": "Jason Grivas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonGri/polarfeed1.0/issues"
+  },
+  "homepage": "https://github.com/JasonGri/polarfeed1.0#readme"
+}
