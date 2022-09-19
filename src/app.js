@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const logger = require("./utils/logger");
 
 const app = express();
 
@@ -11,6 +12,7 @@ module.exports = () => {
 
   app.get("/", (req, res, next) => {
     res.render("pages/homepage");
+    logger.info("Homepage rendered");
   });
 
   return app;
