@@ -1,0 +1,56 @@
+<!-- TODO: Display error messages. -->
+<form
+  id="signUpForm"
+  class="signUp form hide"
+  action="/users/signUp"
+  method="post"
+>
+  <button class="close-btn" type="button">
+    <svg>
+      <use href="/assets/imgs/svgIcons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <h3>Registration Form</h3>
+  <section class="form-section">
+    <label class="form-label" for="username">Username</label>
+    <input
+      class="form-input"
+      id="username"
+      name="username"
+      type="text"
+      autocomplete="username"
+      required
+    />
+  </section>
+  <section class="form-section">
+    <label class="form-label" for="email">Email</label>
+    <input
+      class="form-input"
+      name="email"
+      type="email"
+      autocomplete="email"
+      required
+    />
+  </section>
+  <section class="form-section">
+    <label class="form-label" for="new-password">Password</label>
+    <input
+      class="form-input"
+      name="password"
+      type="password"
+      autocomplete="new-password"
+      required
+    />
+  </section>
+  <section class="form-section">
+    <label class="form-label" for="new-password2">Password Confimation</label>
+    <input
+      class="form-input"
+      name="password2"
+      type="password"
+      autocomplete="new-password"
+      required
+    />
+  </section>
+  <button type="submit">Sing Up</button>
+</form>

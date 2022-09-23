@@ -1,1 +1,5 @@
 [31merror: Label🏷️: Sep-19-2022 17:53:38: Listening on port 5500[39m
+error: Label🏷️: Sep-23-2022 23:01:46: bind message supplies 3 parameters, but prepared statement "" requires 0
+error: Label🏷️: Sep-23-2022 23:05:11: bind message supplies 3 parameters, but prepared statement "" requires 0
+error: Label🏷️: Sep-23-2022 23:06:30: bind message supplies 3 parameters, but prepared statement "" requires 0
+error: Label🏷️: Sep-23-2022 23:10:21: duplicate key value violates unique constraint "users_pkey"
