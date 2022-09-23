@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const logger = require("./utils/logger");
+const usersRouter = require("./routes/users");
 
 const app = express();
 
@@ -14,6 +15,8 @@ module.exports = () => {
     res.render("pages/homepage");
     logger.info("Homepage rendered");
   });
+
+  app.use("/users", usersRouter);
 
   return app;
 };
